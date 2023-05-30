@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Footer2 from "./footer3";
+import Footer2 from "../../Components/Common/footer3";
 
 // val.quote.USD.percent_change_24h
 const ddata = [

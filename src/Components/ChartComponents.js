@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { getData } from "./utils";
+import { getData } from "../utils";
 import Chart from './Chart';
-import './index.css';
+import '../index.css';
 import { TypeChooser } from "react-stockcharts/lib/helper";
 
 

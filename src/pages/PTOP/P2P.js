@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Search from "./Search";
-import Table from "./wallet-table";
+import Search from "../../Components/Search";
+import Table from "../../Components/wallet-table";
 import "./P2P.css";
+
 const ddata = {
   symbol: "",
   quote: {
@@ -45,13 +46,16 @@ const P2P = () => {
       </div>
       <div className="p2p-filter">
         <div className="p2p-input">
+          <div >
           <div className="filter-head">Amount</div>
-          <input placeholder="Enter Amount" />
-          <button>Search</button>
+
+            <input className="Enter_Amount"  placeholder="Enter Amount" />
+            <button className="btn_class">Search</button>
+          </div>
         </div>
         <div className="p2p-fiat">
           <div className="filter-head">Fiat</div>
-          <select>
+          <select >
             <option selected>USD</option>
             <option>INR</option>
           </select>
@@ -79,8 +83,8 @@ const P2P = () => {
           </div>
         </div>
       </div> */}
-      <div className="p2p-table">
-        <table>
+      <div  className="p2p-table">
+        <table >
           <tr className="t-head">
             <td>Advertisers (Completion rate)</td>
             <td>Price</td>
@@ -115,7 +119,7 @@ const P2P = () => {
               IMPS
             </td>
             <td>
-              
+
             </td>
           </tr>
         </table>

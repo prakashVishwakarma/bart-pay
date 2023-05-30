@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import AllCrpytos from "./AllCrpytos";
 import Search from "./Search";
-import "./wallet.css";
+import "../Components/wallet.css";
 import Table from "./wallet-table";
 import "./Exchange.css";
-import Footer2 from "./footer3";
+// import Footer2 from "./Common/footer3";
+
 const ddata = {
   symbol: "",
   quote: {
@@ -29,7 +30,7 @@ const Exchange = () => {
         <Search coin={coin} />
       </div>
     </div>
-      <Footer2/>
+      {/* <Footer2/> */}
     </div>
   );
 };
