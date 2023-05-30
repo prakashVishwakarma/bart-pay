@@ -1,0 +1,431 @@
+.footer2 h4{
+  font-size: 15px;
+  cursor: pointer;
+}
+.footer2 h5{
+   font-size: 15px;
+   cursor: pointer;
+}
+.wallet-table2{
+display: flex;   
+ }
+ .wallet-table2 table th{
+  color: rgb(180, 175, 175)
+ }
+    
+    #order-table{
+      width: 100%;
+      /* border: 2px solid */
+    }
+   
+    .BuyAndSell{
+      width: 254px;
+      
+  
+      text-align: center;
+      /* border: 0.72px solid rgba(18, 18, 18, 0.16);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    }
+    .buy-button{
+      width: 50%;
+      padding: 5px;
+      border: none;
+      background-color: green;
+    
+    }
+    .market-btn{
+      /* width: 10%; */
+      padding: 5px;
+      border: none;
+      background-color: green;
+    
+    }
+    .order-book table{
+      /* width: 100%; */
+    }
+    .order-book table tr{
+      text-align: center;
+    }
+    .order-book table th{
+      /* color: grey */
+    }
+    .order-book{
+      /* width: 500px; */
+      height:306px;
+      border: 0.5px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    }
+    .order-button{
+      display: flex;
+      justify-content: flex-end;
+      /* margin-right: 25px; */
+    }
+    .order-btn{
+      /* width: 10%; */
+      padding: 5px;
+      border: none;
+      background-color:red;
+    
+    }
+    .trade-btn{
+      width: 330px;
+      padding: 5px;
+      border: none;
+      
+      /* background-color: grey; */
+    
+    }
+    .history{
+      margin: 10px;
+      border: 0.5px grey solid;
+      border-radius: 5px;
+    }
+    .sell-button{
+      width: 50%;
+      padding: 5px;
+      background-color: red;
+      border: none;
+      
+    }
+    .wallet-select{
+      margin-top: 10px;
+    
+      margin-left: 50px;
+    
+      border: 1px solid rgba(18, 18, 18, 0.16);
+      box-shadow: 0px 0px -1px rgba(0, 0, 0, 0.25);
+      outline: none;
+    }
+    .number{
+      border: 1px solid rgba(18, 18, 18, 0.16);
+      box-shadow: 0px 0px -1px rgba(0, 0, 0, 0.25);
+      outline: none;
+      border-radius: 3px;
+      padding: 2px ;
+      margin-bottom: 20px;
+    
+    }
+    .wallet-side{
+    height: 30px;
+    width: 20%;
+    margin-left: 20px;
+     border-left:  1px solid rgba(18, 18, 18, 0.16);
+     border-top:  1px solid rgba(18, 18, 18, 0.16);
+     border-bottom:  1px solid rgba(18, 18, 18, 0.16);
+    }
+    .wallet-price{
+      font-size: 10px;
+      margin-left: 2px;
+    }
+    .wallet-persent{
+      border:  1px solid rgba(18, 18, 18, 0.16);
+    padding: 3px;
+      width: 87%;
+      margin: auto;
+    }
+    .wallet-persent1{
+      font-size: 12px;
+      border-right:  1px solid rgba(18, 18, 18, 0.16);
+      padding: 4px;
+    }
+    .wallet-persent2{
+      font-size: 12px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      padding: 4px;
+    }
+    #buy-sell{
+      box-shadow: 0px 0px 1px black;
+      margin-bottom: 10px;
+    }
+    .wallet-div{
+      display: flex;
+      justify-content: space-between;
+    }
+    .wallet-persent2 span{
+      margin: 2px;
+      font-size: 10px;
+      cursor: pointer;
+    }
+    .btn1{
+      width: 80%;
+      border: none;
+      background-color: green;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 4px;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 1px 5px rgba(0, 128, 0, 0.138);
+      
+    }
+    .btn2{
+      width: 80%;
+      border: none;
+      background-color:red;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 4px;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 1px 1px 5px rgba(0, 128, 0, 0.138);
+    }
+    .wallet{
+      height: 300px;
+      /* margin-bottom: 20px; */
+      box-shadow: 0px 0px 1px black;
+      margin-bottom: 10px;
+    
+    }
+    .buy-sell{
+      border: 0.72px solid rgba(18, 18, 18, 0.16);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    }
+    .buy{
+     
+    }
+    .container5{
+      background-color:white;
+      border-top: 2px solid rgba(0, 0, 0, 0.221);
+      width: 100%;
+      height: 500px;
+      position: relative;
+      bottom: 0;
+      text-align: center;
+    }
+    .footer2{
+      display: flex;
+      width: 100%;
+     height: 400px;
+    text-align: center;
+    }
+    .about{
+      flex-basis: 20%;
+    
+      margin-top: 40px;
+    }
+    .service{
+      flex-basis: 20%;
+    
+      margin-top: 40px;
+    }
+    .support{
+      flex-basis: 20%;
+      margin-top: 40px;
+    }
+    .social{
+      flex-basis: 20%;
+      margin-top: 40px;
+    }
+    .crypto{
+      flex-basis: 20%;
+      margin-top: 40px;
+    }
+    .foot-head{
+      color: #121212;
+    }
+    .foot-content{
+      color: #121212;
+    }
+    #link{
+      color: white
+    }
+
+    .signup-flexs{
+      display:flex ;
+       width: 70%;
+     justify-content: center;
+     margin: auto;
+    margin-bottom: 50px;
+    text-align: left;
+    left: 250px;
+    }
+    
+    .hr4{
+      transform: rotate("90deg");
+    }
+    .login-class{
+      color:white;
+    }
+    .signup-forms{
+      text-align: left;
+      align-items: left;
+      position: relative;
+      box-sizing: border-box;
+    top:20px;
+      width: 50%;
+     /* height: 800px; */
+    text-align: left; 
+      background-color: white;
+      box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      padding: 50px;
+    }
+    .signup-pic{
+      background-color: #3F3B6C;
+      flex-basis: 50%;
+      height: 800px;
+      position: relative;
+    
+      top: 20px;
+    }
+    .signup-info{
+      background-color:white ;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.266);
+      border-radius: 0px;
+      margin: 10px;
+    }
+    .Signup-head2{
+      position: relative;
+     
+      top: -40px;
+      width: 40%;
+    }
+    .Signup-heads{
+    
+      font-size: 50px;
+      position: relative;
+      left: -1%;
+    top: -30px;
+    
+      color: #3F3B6C;
+    }
+    .signup-btn,.login-btn{
+      /* position: relative; */
+    background: transparent;
+    border: none;
+      margin: 3px;
+      color: #3F3B6C;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    
+    
+    
+    .login-forms{
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      position: relative;
+      top: 20px;
+    
+     width: 100%;
+      height: 800px;
+      border: 2px;
+      display: none;
+      background-color: white;
+      
+    text-align: left;
+    
+      padding: 50px;
+      
+    }
+    .res-img{
+      position: relative;
+      top: px;
+    }
+    .funds-button{
+      display: flex;
+      justify-content: space-between;
+    }
+    .funds-button-content1{
+      margin-left: 30px;
+    }
+    .funds-button-content2{
+      margin-right: 30px;
+    }
+    .fund-table td {
+      padding: 20px;
+    }
+    .funds-main{
+      background-color: #f0f2f5;
+    }
+    .funds-heads{
+      padding: 10px;
+        width: 30%;
+        color:black;
+        background-color: white;
+        height: 100px;
+        margin:  40px auto;
+    }
+    .form-label{
+      margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    }
+    #form-name{
+    width: 40%;
+    }
+    .copyright{
+      font-weight: 500;
+    }
+    .copyright {
+      display: none;
+    }
+    .deposit-btn{
+      border-radius: 5px;
+      background-color:#55bd6c;
+      color: white;
+      margin-right: 10px ;
+    }
+    .withdraw-btn{
+      border-radius: 5px;
+    }
+    .withdraw-btn:hover{
+      background-color:red;
+      color: white;
+    }
+    @media (max-width:990px) {
+      .footer2{
+        display: block;
+        padding: 20px;
+      }
+    
+      .copyright2{
+        display: none;
+      } 
+    }
+    @media screen and (max-width:1250px) {
+    .wallet-table2 {
+        display: block;
+    }
+    .trade-btn{
+      width: 100%;
+    }
+    .signup-flexs{
+      width: 100%;
+    }
+    }
+    @media screen and (max-width:910px) {
+        .BuyAndSell{
+          width: 100%;
+        }
+        .BuyAndSell table{
+          width: 100%;
+        }
+        .fund-table td {
+          padding: 5px;
+        }
+        .signup-forms{
+          width:65%
+        }
+  }
+ 
+  @media screen and (max-width:500px) {
+    .fund-table td {
+      padding: 2px;
+      font-size: 10px;
+    }
+    .signup-forms{
+      width:90%
+    }
+  }
+  @media screen and (max-width:300px){
+    .fund-table td {
+      padding: 0px;
+      font-size: 7px;
+    }
+    
+  }

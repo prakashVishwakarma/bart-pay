@@ -1,0 +1,134 @@
+.all-cryptos{
+    background-color: white;
+    /* width: 17%; */
+}
+.crypto-input{
+    display: flex;
+    margin: 10px;
+}
+.input-icon{
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+}
+#selected{
+    background-color: rgb(238, 242, 242);
+    border-left: 5px solid rgb(23, 143, 195);
+}
+.usdt{
+    margin-left: 10px;
+}
+.exchange-filters{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+    padding: 0 10px 5px;
+}
+.solo-coin{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-top: 0.5px solid grey;
+    cursor: pointer;
+}
+.all-logo{
+    display: flex;
+}
+.logo{
+    font-size: larger;
+}
+.coin-name{
+    margin-left: 10px;
+}
+.logo-child{
+    display: flex;
+    align-items: center;
+}
+.coin-name-child{
+    font-weight: 600;
+}
+.coin-up{
+    font-size: 10px;
+    color: crimson;
+}
+.coin-price{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+}
+.all-coin{
+    overflow: scroll;
+    height: 600px;
+    overflow-x: hidden;
+}
+#green-color{
+    color: green;
+}
+.exchange-filters div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.search{
+    border: grey solid .5px;
+    border-radius: 3.5px;
+    height: 20px;
+    padding-left: 5px;
+}
+#exchange{
+    /* display: flex; */
+}
+.table-search{
+    display: flex;
+}
+.exchange {
+    display: flex;
+    justify-content: space-around;
+}
+.burger{
+    display: none;
+}
+
+/* .slider{
+    position: relative;
+}
+.slider ul{
+    position: absolute;
+    background: rgb(23, 143, 195);
+    width: 100%;
+} */
+.slider ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+.slider li{
+    cursor: pointer;
+}
+.navbar-all{
+    background-color: rgb(23, 143, 195);
+}
+
+@media screen and (max-width:910px) {
+    .exchange {
+        display: block;
+    }
+    .all-coin{
+        height: 400px;
+      }
+      .BuyAndSell{
+        width: 100%;
+      }
+      .nav-link{
+        display: none;
+      }
+      .burger{
+        display: flex;
+      }
+      .wallet-div {
+        width: 70%;
+      }
+}
