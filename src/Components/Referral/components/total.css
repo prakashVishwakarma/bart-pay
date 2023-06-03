@@ -1,0 +1,22 @@
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    border-left: 10px solid rgb(201, 255, 125);
+    box-shadow: 10px 10px 90px 10px rgb(238, 238, 238);
+    border-radius: 10px;
+    
+}
+.cart > div{
+    margin-top: 15px;
+
+}

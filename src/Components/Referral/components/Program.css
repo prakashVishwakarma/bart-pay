@@ -1,0 +1,12 @@
+.flex{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Program_container{
+    width: 75%;
+    text-align: center;
+    padding: 50px;
+}

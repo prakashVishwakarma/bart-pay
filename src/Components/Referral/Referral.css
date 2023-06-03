@@ -1,0 +1,94 @@
+.Verification {
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Verification_container {
+    /* box-shadow: 0px 0px  10px  rgb(208, 208, 208); */
+    width: 500px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color:  rgb(215, 242, 255);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.Verification_container2>div>select {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(190, 234, 255);
+
+}
+
+.Verification_container2,
+.Verification_container3 {
+    background-color: rgb(239, 250, 255);
+
+    display: flex;
+    justify-content: center;
+}
+
+.Verification_container2>div>h4 {
+    padding-top: 20px;
+}
+
+.Verification_container3>div>table,
+th,
+td {
+
+    border: none;
+    width: 400px;
+    padding-top: 10px;
+
+}
+
+img {
+    width: 10px;
+}
+
+
+
+.profile_time_line1 {
+    display: flex;
+    background-color: rgb(215, 242, 255);
+    justify-content: space-between;
+
+}
+
+.line1 {
+    border: 1px solid gray;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    top: 15px;
+}
+
+.icon1 {
+    font-size: 30px;
+}
+
+.side1 {
+    position: relative;
+    left: 8px;
+}
+
+.button_container>button {
+    /* display: flex;
+    justify-content: center; */
+    color: white;
+    background-color: rgb(23, 143, 195);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}

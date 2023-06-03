@@ -1,0 +1,93 @@
+.Share_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(201, 255, 125); */
+}
+
+.Share_cart {
+    width: 50%;
+    margin-top: 90px;
+    /* border: 1px solid rgb(201, 255, 125); */
+    box-shadow: 10px 10px 90px 10px rgb(238, 238, 238);
+
+    /* 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px; */
+
+}
+
+.Share_cart>h6 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.inputTag {
+    display: flex;
+
+}
+
+.inputTag>input {
+    align-items: center;
+    margin-left: 5%;
+    width: 80%;
+    height: 40px;
+}
+
+.Share_buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Share_buttons>div:nth-child(1) {
+    background-color: rgb(111, 197, 255);
+}
+.Share_buttons>div:nth-child(1):hover {
+    background-color: rgb(75, 179, 249);
+}
+
+.Share_buttons>div:nth-child(2) {
+    background-color: rgb(73, 233, 86);
+}
+
+.Share_buttons>div:nth-child(2):hover {
+    background-color:rgb(55, 251, 71);
+}
+.Share_buttons>div:nth-child(3) {
+    background-color: rgb(151, 191, 217);
+}
+
+.Share_buttons>div:nth-child(3):hover {
+    background-color: rgb(133, 200, 244);
+}
+.Share_buttons>div:nth-child(4) {
+    background-color: rgb(201, 202, 243);
+}
+
+.Share_buttons>div:nth-child(4):hover {
+    background-color: rgb(174, 175, 253);
+}
+.Share_buttons>div {
+    background-color: aqua;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    width: 20%;
+    border: 1px solid rgb(201, 255, 125);
+}
+
+.Share_buttons>div>.Share_icon {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 4px;
+    color: white;
+}
