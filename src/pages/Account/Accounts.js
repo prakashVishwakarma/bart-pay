@@ -39,6 +39,8 @@ const Accounts = () => {
   const handleClickSidebar = (index) => {
     index === 0 && navigate("/account/profile")
     index === 1 && navigate("/account/currency-preference")
+    index === 2 && navigate("/Referral")
+    index === 3 && navigate("/Verification")
     index === 4 && navigate("/account/payment-options")
     setIndex(index)
   }

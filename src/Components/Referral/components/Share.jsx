@@ -10,7 +10,7 @@ const Share = () => {
             <div className="Share_cart">
                 <h6>Share your link & earn more!</h6>
                 <div className="inputTag">
-                    <input type="text" name="link" id="link" />
+                    <input placeholder='https://wazirx.com/invite/9e2w3h7w' type="text" name="link" id="link" />
                     <button>Copy</button>
                 </div>
                 <div className="Share_buttons">

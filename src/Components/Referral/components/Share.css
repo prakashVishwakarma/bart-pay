@@ -3,22 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10%;
     /* border: 1px solid rgb(201, 255, 125); */
 }
 
 .Share_cart {
     width: 50%;
     margin-top: 90px;
-    /* border: 1px solid rgb(201, 255, 125); */
     box-shadow: 10px 10px 90px 10px rgb(238, 238, 238);
-
-    /* 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px; */
-
 }
 
 .Share_cart>h6 {
@@ -39,15 +31,28 @@
     height: 40px;
 }
 
+.inputTag>button {
+
+    background-color: rgb(23, 143, 195);
+    color: white;
+    border: none;
+    width: 60px;
+}
+
 .Share_buttons {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 .Share_buttons>div:nth-child(1) {
     background-color: rgb(111, 197, 255);
 }
+
 .Share_buttons>div:nth-child(1):hover {
     background-color: rgb(75, 179, 249);
 }
@@ -57,8 +62,9 @@
 }
 
 .Share_buttons>div:nth-child(2):hover {
-    background-color:rgb(55, 251, 71);
+    background-color: rgb(55, 251, 71);
 }
+
 .Share_buttons>div:nth-child(3) {
     background-color: rgb(151, 191, 217);
 }
@@ -66,6 +72,7 @@
 .Share_buttons>div:nth-child(3):hover {
     background-color: rgb(133, 200, 244);
 }
+
 .Share_buttons>div:nth-child(4) {
     background-color: rgb(201, 202, 243);
 }
@@ -73,21 +80,34 @@
 .Share_buttons>div:nth-child(4):hover {
     background-color: rgb(174, 175, 253);
 }
+
 .Share_buttons>div {
     background-color: aqua;
     border-radius: 20px;
     height: 40px;
     display: flex;
-    text-align: center;
+    margin-right: 5px;
+    /* text-align: center; */
+    justify-content: center;
     /* align-items: center; */
-    width: 20%;
+    width: 25%;
     border: 1px solid rgb(201, 255, 125);
 }
 
 .Share_buttons>div>.Share_icon {
     font-size: 30px;
     text-align: center;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     margin-top: 4px;
     color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+    .Share_cart {
+
+        width: 90%;
+        /* margin-top: 90px;
+        box-shadow: 10px 10px 90px 10px rgb(238, 238, 238); */
+    }
 }

@@ -11,7 +11,7 @@
     /* border: 1px solid rgb(255, 0, 0); */
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color:  rgb(215, 242, 255);
+    background-color: rgb(215, 242, 255);
     padding: 20px;
     border-radius: 10px;
 
@@ -40,8 +40,8 @@
 }
 
 .Verification_container3>div>table,
-th,
-td {
+.Verification_container3>div>table>tr>th,
+.Verification_container3>div>table>tr>td {
 
     border: none;
     width: 400px;

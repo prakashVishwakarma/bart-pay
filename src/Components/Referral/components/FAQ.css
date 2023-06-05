@@ -1,0 +1,39 @@
+.FAQ_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.FAQ_container_fluid {
+    width: 50%;
+}
+
+.FAQ_heading {
+    text-align: center;
+}
+
+.FAQ_accordian_card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.FAQ_accordian_card > h6 {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+    .FAQ_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .FAQ_container_fluid {
+        width: 100%;
+    }
+}

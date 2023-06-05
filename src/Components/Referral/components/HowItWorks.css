@@ -1,0 +1,53 @@
+.HowItWorks_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+
+}
+
+.HowItWorks_container_fluid {
+    width: 75%;
+    /* border: 2px solid black; */
+
+    /* display: flex;
+    justify-content: center; */
+}
+
+.HowItWorks_card_h6 {
+    text-align: center;
+}
+
+/* .HowItWorks_container>h6 {
+    text-align: center;
+} */
+
+
+.HowItWorks_card {
+    width: 33.33%;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 10px 16px 80px 1px rgb(239, 239, 239);
+    /* height: ; */
+}
+
+.HowItWorks_card>h6,
+.HowItWorks_card>p {
+    padding: 20px;
+}
+
+.HowItWorks_card_container {
+    display: flex;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .HowItWorks_card_container {
+        flex-direction: column;
+    }
+    .HowItWorks_card{
+        width: 100%;
+
+    }
+}
