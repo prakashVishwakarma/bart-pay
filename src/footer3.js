@@ -1,64 +1,73 @@
 import React from "react";
 import "./wallet.css"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+
 function Footer2(){
     return(
     
          <div className="container5">     
          <h1 style={{
-            marginLeft:"10px",
+            marginLeft:"50px",
             color:"black",
-            textAlign: 'left'
+            paddingLeft:"20px",
+            textAlign: 'left',
+            paddingTop:"20px",
+            marginBottom:"20px"
         }}>Bart-Pay</h1>
         <div className="footer2">
             <div className="about">
             <h4 className="foot-head">About</h4> 
-                <h5 className="foot-content">Blog</h5>
-                <h5 className="foot-content">Carrres</h5>
-                <h5 className="foot-content">Bart-Pay Warriors</h5>
-                <h5 className="foot-content">Announcements</h5>
-                <h5 className="foot-content">Media Assets</h5>
-                <h5 className="foot-content">Terms Of Use</h5>
-                <h5 className="foot-content">Privacy Policy</h5>
+                <a className="foot-content">Blog</a>
+                <a className="foot-content">Carrres</a>
+                <a className="foot-content">Bart-Pay Warriors</a>
+                <a className="foot-content">Announcements</a>
+                <a className="foot-content">Media Assets</a>
+                <a className="foot-content">Terms Of Use</a>
+                <a className="foot-content">Privacy Policy</a>
             </div>
             <div className="service">
             <h4 className="foot-head">Services</h4> 
-                <h5 className="foot-content">Download</h5>
-                <h5 className="foot-content">Corporate Account</h5>
-                <h5 className="foot-content">Bart-Pay Warriors</h5>
-                <h5 className="foot-content">Referral Program</h5>
-                <h5 className="foot-content">Market Maker Program</h5>
-                <h5 className="foot-content">Bart-Pay API</h5>
-                <h5 className="foot-content">List Your Coin</h5>
+                <a className="foot-content">Download</a>
+                <a className="foot-content">Corporate Account</a>
+                <a className="foot-content">Bart-Pay Warriors</a>
+                <a className="foot-content">Referral Program</a>
+                <a className="foot-content">Market Maker Program</a>
+                <a className="foot-content">Bart-Pay API</a>
+                <a className="foot-content">List Your Coin</a>
             </div>
             <div className="support">
             <h4 className="foot-head">Support</h4> 
-                <h5 className="foot-content">Help Center</h5>
-                <h5 className="foot-content">Fees</h5>
-                <h5 className="foot-content">Security</h5>
-                <h5 className="foot-content">Law Enforcement Request</h5>
-                <h5 className="foot-content">What Is Bitcoin</h5>
+                <a className="foot-content">Help Center</a>
+                <a className="foot-content">Fees</a>
+                <a className="foot-content">Security</a>
+                <a className="foot-content">Law Enforcement Request</a>
+                <a className="foot-content">What Is Bitcoin</a>
             </div>
             <div className="social">
             <h4 className="foot-head">Services</h4> 
-                <h5 className="foot-content">Facebook</h5>
-                <h5 className="foot-content">Instagram</h5>
-                <h5 className="foot-content">Twitter</h5>
-                <h5 className="foot-content">Linkedin</h5>
+                <a className="foot-content "><FaFacebook className="icons"/> Facebook</a>
+                <a className="foot-content "><FaInstagram className="icons"/>Instagram</a>
+                <a className="foot-content "><FaTwitter className="icons"/>Twitter</a>
+                <a className="foot-content "><FaLinkedinIn className="icons"/>Linkedin</a>
                
             </div>
             <div className="crypto">
               <h4 className="foot-head"> Buy crypto</h4> 
-                <h5 className="foot-content">Buy Bitcoin</h5>
-                <h5 className="foot-content">Buy Ethereum</h5>
-                <h5 className="foot-content">Buy USDT</h5>
-                <h5 className="foot-content">Buy Matic</h5>
-                <h5 className="foot-content">Buy Dogecoin</h5>
-                <h5 className="foot-content">Buy SHIB</h5>
-                <h5 className="foot-content">Buy Solana</h5>
-                <h5  className="foot-content">Buy Cardano</h5>
+                <a className="foot-content">Buy Bitcoin</a>
+                <a className="foot-content">Buy Ethereum</a>
+                <a className="foot-content">Buy USDT</a>
+                <a className="foot-content">Buy Matic</a>
+                <a className="foot-content">Buy Dogecoin</a>
+                <a className="foot-content">Buy SHIB</a>
+                <a className="foot-content">Buy Solana</a>
+                <a  className="foot-content">Buy Cardano</a>
             </div>
      
-        <h5 className="copyright">copywrite crypto.com</h5>
+        {/* <a className="copyright">copywrite crypto.com</a> */}
         </div>
         <h5 className="copyright2">copywrite crypto.com</h5>
         </div>   
