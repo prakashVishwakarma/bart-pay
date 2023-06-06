@@ -246,3 +246,28 @@ p{
   box-shadow: 2px 5px 5px rgba(0,0,0,0.5);
 margin-top: 30px;
 }
+
+/* Media Query */
+@media (max-width: 767px)
+{
+  .acc-child
+  {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1em;
+  }
+  .acc-text
+  {
+    width: 100%;
+    display: flex;
+    padding: 16px 18px;
+    justify-content: space-between;
+    /* background-color: var(--color-background-l0); */
+    align-items: center;
+    cursor: pointer;
+    /* box-shadow: inset 0 1px 0 0 var(--color-shadow); */
+    position: relative;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+}
