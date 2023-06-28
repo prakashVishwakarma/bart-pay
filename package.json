@@ -10,7 +10,7 @@
     "d3-time-format": "^2.1.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-bootstrap": "^0.31.5",
+    "react-bootstrap": "^0.33.1",
     "react-dom": "^16.2.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.2",
